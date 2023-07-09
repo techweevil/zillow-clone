@@ -10,30 +10,37 @@ const navList = [
   {
     label: "Buy",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Rent",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Sell",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Home Loans",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Agent Finder",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Manage Rentals",
+    variant: "bold",
     href: "#",
   },
   {
     label: "Advertise",
     href: "#",
+    variant: "bold",
   },
   {
     label: "Help",
@@ -55,7 +62,7 @@ const Header = () => {
   }: {
     children: string;
     href: string;
-    variant?: "bold" | "light";
+    variant?: string;
   }) => {
     return (
       <a
@@ -76,7 +83,7 @@ const Header = () => {
   }: {
     children: string;
     href: string;
-    variant?: "bold" | "light";
+    variant?: string;
   }) => {
     return (
       <button
