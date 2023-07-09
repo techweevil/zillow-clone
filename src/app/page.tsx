@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import Showcase from "./components/Showcase";
 import HomeRec from "./components/HomeRec";
